@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-PizzeriaProject-6e2a5a84-b1f9-4c44-9b50-2676356db9d7</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.28" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.28" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.28" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.28" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.28" />
+  </ItemGroup>
+
+</Project>
